@@ -1,0 +1,66 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --error: #ff2851;
+    --success: #2ecc71;
+
+    /* theme */
+    --accent: #7367f0;
+    --accent-lite: #eeecff;
+    --background: #ab5454;
+}
+
+html {
+    /* 62.5% of 16px browser font size is 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+img[role="block"] {
+    width: 100%;
+    object-fit: contain;
+}
+
+.copy {
+    cursor: pointer;
+}
+
+.form-control {
+    line-height: 2.5;
+}
+
+.note {
+    padding: 8px 16px;
+    border-left: 4px solid var(--accent);
+    background-color: var(--accent-lite);
+}
+
+.title-accent {
+    background-color: var(--background);
+    color: var(--white);
+}
+
+.title-primary {
+    background-color: var(--accent);
+    color: var(--white);
+}
+
+.text-accent {
+    color: var(--accent);
+}
+
+.error {
+    border: 2px solid #ff2851;
+}
+
+.success {
+    border: 2px solid #2ecc71;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 16px;
+}

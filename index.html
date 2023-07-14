@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <div class="container py-5 text-center">
+                <div class="d-flex flex-wrap flex-md-nowrap justify-content-center">
+                    <img class="mb-3" src="./assets/iie-logo.svg" alt="iie-logo" width="150">
+                    <img role="block" src="./assets/iie-banner.png" alt="iie-banner">
+                </div>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <h3 class="text-primary">In Assosiation with <span class="fw-bold">NUNC SYSTEMS PRIVATE
+                            LIMITED</span></h3>
+                    <img role="block" height="100px" src="https://www.nuncsystems.com/img/nunc_sys_logo.svg"
+                        alt="nunc-logo" class="mt-3">
+                </div>
+            </div>
+
+
+            <!-- BANK DETAILS -->
+            <div class="pb-5" id="bank-details-section">
+                <h3 class="mb-4 title-accent text-center p-2">Cybersecurity: Threats, Software License Terms, and Legal
+                    Aspects
+                </h3>
+                <p class="note">Make sure the payment is completed before registering the form and keep your transaction
+                    details available with you to submit the form. </p>
+
+                <h4><strong>Following is the bank details for registration payment: </strong></h4>
+                <h5 class="title-primary mt-3 p-2 text-uppercase"><strong>Payment</strong></h5>
+                <p class="note">All payments are to be made through A/C payee cheque / RTGS/ NEFT </p>
+                <h5 class="title-primary mt-5 p-2 text-uppercase"><strong>Bank Account Details</strong></h5>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex flex-wrap flex-md-nowrap justify-content-between lh-sm">
+                                <div>
+                                    <h5 class="my-0 text-secondary">Name of the Beneficiary</h5>
+                                </div>
+                                <span class="fw-bold copy">The Institution of Engineers (India),
+                                    Telangana State Centre</span>
+                            </li>
+
+                            <li class="list-group-item d-flex flex-wrap flex-md-nowrap justify-content-between lh-sm">
+                                <div class="flex-auto">
+                                    <h5 class="my-0 text-secondary">Name of the Bank</h5>
+                                </div>
+                                <span class="fw-bold copy flex-auto">Canara Bank</span>
+                            </li>
+
+                            <li class="list-group-item d-flex flex-wrap flex-md-nowrap justify-content-between lh-sm">
+                                <div class="flex-auto">
+                                    <h5 class="my-0 text-secondary">Branch Details</h5>
+                                </div>
+                                <span class="fw-bold copy flex-auto">MCB, Khairatabad, Hyderabad - 500 004</span>
+                            </li>
+
+                            <li class="list-group-item d-flex flex-wrap flex-md-nowrap justify-content-between lh-sm">
+                                <div class="flex-auto">
+                                    <h5 class="my-0 text-secondary">Account Number</h5>
+                                </div>
+                                <div>
+                                    <span class="fw-bold copy flex-auto">110038604708</span> /
+                                    <span class="fw-bold copy flex-auto">Saving Account</span>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex flex-wrap flex-md-nowrap justify-content-between lh-sm">
+                                <div class="flex-auto">
+                                    <h5 class="my-0 text-secondary">IFSC Code</h5>
+                                </div>
+                                <span class="fw-bold copy flex-auto">CNRB0013438</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p class="note">For any queries you can reach NUNC Systems Private Limited - <span
+                            class="copy">88869 74388</span></p>
+                </div>
+            </div>
+
+            <!-- REGISTRATION FORM -->
+            <div class="pb-5" id="registration-form-section">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <div id="contactForm" class="needs-validation">
+                            <div class="row mb-5">
+                                <h5 class="title-primary p-2 text-uppercase"><strong>Registration From</strong></h5>
+
+                                <div class="col-12">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+                                    <div class="name">
+                                        Valid first name is required.
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Title</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="username" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <h5 class="mb-3">Sex</h5>
+                                    <div class="my-3">
+                                        <div class="form-check">
+                                            <input id="credit" name="paymentMethod" type="radio"
+                                                class="form-check-input" checked required>
+                                            <label class="form-check-label" for="credit">Male</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input id="debit" name="paymentMethod" type="radio" class="form-check-input"
+                                                required>
+                                            <label class="form-check-label" for="debit">Female</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Designation</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="username" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Organization</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="username" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Address for correspondence </label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="username" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <div class="input-group">
+                                        <input type="text" maxlength="10" class="form-control" id="phone" name="phone"
+                                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                        <span id="phoneError" class="error"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="email-id" class="form-label">Email Id <span
+                                            class="text-body-secondary"></span></label>
+                                    <input type="email" class="form-control" id="email-id" oninput="checker()"
+                                        maxlength="30" required>
+                                    <div id="email-icon">
+
+                                    </div>
+                                    <p id="email-error-msg">please enter a valid mail id</p><br />
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Qualification</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="username" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="username" class="form-label">Category for Registration</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="username" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div  class="row mb-5">
+                                <h5 class="title-primary p-2 text-uppercase"><strong>Payment details</strong></h5>
+
+                                <div class="col-12">
+                                    <label for="address" class="form-label">Transaction Number </label>
+                                    <input type="text" class="form-control" id="address" required>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address2" class="form-label">Date of Transaction </label>
+                                    <input type="text" class="form-control" id="address2">
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address2" class="form-label">Name of person doing payment</label>
+                                    <input type="text" class="form-control" id="address2">
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="address2" class="form-label">Amount </label>
+                                    <input type="text" class="form-control" id="address2">
+                                </div>
+                            </div>
+                            <br />
+
+
+                            <hr class="my-4">
+
+                            <button class="w-100 btn btn-primary btn-lg" type="submit">SAVE</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
